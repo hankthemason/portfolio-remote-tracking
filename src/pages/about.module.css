@@ -37,6 +37,10 @@
   padding-top: .1rem;
 }
 
+.links-mobile {
+  display: none;
+}
+
 
 
 
@@ -49,12 +53,25 @@
 
   .pic {
     width: 200px;
-    height: 200px;
+    height: 140px;
   }
 
   .bio-body {
     width: 80%;
     font-size: 1.2rem;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .links-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row {
+    font-size: 1rem;
   }
 
 }
