@@ -6,7 +6,9 @@
 
 .pic {
   width: 400px;
-  height: 400px;
+  height: 800px;
+  display: flex;
+  flex-direction: column
 }
 
 .bio-body {
@@ -24,6 +26,8 @@
   display: flex;
   width: 30%;
   height: 1.5rem;
+  margin: .45rem;
+  font-size: 1.5rem;
 }
 
 
