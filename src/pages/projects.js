@@ -48,6 +48,15 @@ const Projects = ({ data }) => {
         >
           <GatsbyImage image={images[2]} />
         </Project>
+        <Project
+          title='Blogr Landing Page Mockup'
+          url='hankthemason.github.io/blogr-landing-page-main/'
+          urlFull='https://hankthemason.github.io/blogr-landing-page-main/'
+          repoUrl='https://github.com/hankthemason/blogr-landing-page-main'
+          description='A responsive web layout mockup made entirely with HTML/CSS/Javascript.  All of the elements (dropdowns, mobile menus, etc.) are built from scratch.  I focused on using flexbox and mobile-first design principles, along with some animations for hover events.'
+        >
+          <GatsbyImage image={images[3]} />
+        </Project>
       </div>
     </Layout>
   )
@@ -75,6 +84,9 @@ export const pageQuery = graphql`
       ...fluidImage
     }
     imageThree: file(relativePath: { eq: "pynchoname.png" }) {
+      ...fluidImage
+    }
+    imageFour: file(relativePath: { eq: "landing-page-screenshot.png" }) {
       ...fluidImage
     }
   }
