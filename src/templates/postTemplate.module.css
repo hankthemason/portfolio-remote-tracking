@@ -25,3 +25,26 @@
 .return-link {
   font-size: 1.2rem;
 }
+
+.console {
+  width: 50%
+}
+
+.post-body a {
+  overflow-wrap: break-word
+}
+
+@media only screen and (max-width: 600px) {
+  .return-link {
+    font-size: 1rem;
+  }
+
+  .post-title {
+    line-height: 3rem;
+  }
+
+  .post-body {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+}

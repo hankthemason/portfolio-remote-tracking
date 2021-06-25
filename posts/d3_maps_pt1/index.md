@@ -10,7 +10,7 @@ We are going to use React and D3 to build a map of police precincts in NYC. Then
 
 Open a new terminal and navigate to where you want to keep your project. Type the following commands into your terminal:
 
-<div style="width: 50%">
+<div class="console">
 
 ```console
 $ create-react-app nypd-precinct-map
