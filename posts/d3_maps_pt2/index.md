@@ -13,8 +13,8 @@ First let’s work on adding to our `App` component, since that is where we pass
 ```javascript
 import { default as allegationsPerPrecinct } from './data/allegationsByPrecinct.json'
 ```
-<br>
-Then we’ll update how we render our `Map `component, by passing it the `allegationsPerPrecinct` object we just imported as a new prop.<br>
+
+Then we’ll update how we render `Map` component, by passing it the `allegationsPerPrecinct` object we just imported as a new prop.<br>
 <br>
   
 
