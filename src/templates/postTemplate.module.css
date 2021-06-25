@@ -1,0 +1,27 @@
+.post-body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.post-title {
+  font-weight: 400;
+  font-size: 3rem;
+  margin-top: 1.6rem
+}
+
+.post-date {
+  font-style: italic;
+}
+
+.post-body {
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+}
+
+.post-body span {
+  background-color: #f5f2f0;
+}
+
+.return-link {
+  font-size: 1.2rem;
+}

@@ -1,0 +1,39 @@
+.post {
+  margin: 0 4rem 4rem 4rem;
+  padding-bottom: 2rem;
+  border: 1px solid grey;
+  padding: 2rem 1rem 2rem 1rem;
+}
+
+.post-title {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.post-description {
+  font-size: 1.1rem;
+  font-weight: 100;
+  padding: .5rem 0 2rem 0;
+}
+
+.post-description p {
+  margin: .4rem 0;
+}
+
+.post-date {
+  font-style: italic;
+}
+
+.post a{
+  background-color: hsl(212, 60%, 75%);
+  padding: .6rem;
+  font-size: 1.3rem;
+  text-decoration: none;
+  border: 1px solid grey;
+}
+
+@media only screen and (max-width: 400px) {
+  .post {
+    margin: 0 0 2rem 0;
+  }
+}
