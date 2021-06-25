@@ -30,9 +30,9 @@ const Blog = ({ data }) => {
 
 export default Blog
 
-export const AllBlogsQuery = graphql`
-  query AllBlogPosts {
-    allMarkdownRemark {
+export const blogQuery = graphql`
+  query {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
           frontmatter {
