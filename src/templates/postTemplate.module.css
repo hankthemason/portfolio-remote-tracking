@@ -6,7 +6,8 @@
 .post-title {
   font-weight: 400;
   font-size: 3rem;
-  margin-top: 1.6rem
+  margin-top: 1.6rem;
+  line-height: 3rem;
 }
 
 .post-date {
@@ -18,8 +19,8 @@
   line-height: 2.2rem;
 }
 
-.post-body span {
-  background-color: #f5f2f0;
+.post-body .gatsby-highlight {
+  margin-top: 5rem;
 }
 
 .return-link {

@@ -1,5 +1,5 @@
 ---
-path: '/d3_maps_pt1'
+path: '/blog/d3_maps_pt1'
 date: '2021-06-24'
 title: 'Build a map of NYPD precincts with React & D3, Part 1'
 description: 'Use D3 to build interactive maps in React.'
@@ -115,7 +115,6 @@ First we call `.select()` to select our `svgRef`, and then we call `selectAll()`
 The only thing we have left to do is to update the App.js file to import the `Map` component, fetch the GeoJSON data, and then render the `Map` component with the GeoJSON data as a prop. This is what it will look like:
 
 ```javascript
-
 import { useState, useEffect } from 'react'
 import './App.css';
 import { Map } from './Map'
@@ -147,7 +146,7 @@ First, we need to import React’s **useState** and **useEffect** hooks. Then we
 
 Congratulations! You’ve successfully rendered a map of NYC’s police precincts! Next we are going to use public records to turn our map into a heat map showing how many allegations of misconduct are connected to each precinct.
 
-Here is Part 2 of this tutorial: https://hankthemason.medium.com/build-a-map-of-nycs-police-precincts-with-react-d3-part-2-f02620395bf5
+Here is Part 2 of this tutorial: https://hankthemason.github.io/d3_maps_pt1
 
 Here is the GitHub repo for this project: https://github.com/hankthemason/nyc-precinct-map-tutorial-pt1
 
