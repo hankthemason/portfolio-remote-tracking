@@ -22,7 +22,7 @@ const Template = ({ data }) => {
         <div className={postTitle}>{title}</div>
         <p className={postDate}>Posted on {date}</p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <div className={returnLink}>
+        <div className={returnLink} style={{marginBottom: '3rem'}}>
           <Link to='/blog'>Back to blog home</Link>
         </div>
       </div>
