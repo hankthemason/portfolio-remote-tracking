@@ -4,7 +4,7 @@ date: '2021-06-25'
 title: 'Build a map of NYPD precincts with React & D3, Part 2'
 description: 'Use D3 to build interactive maps in React.'
 ---
-In Part 2 of this tutorial, we are going to turn our basic map into a heat map that visualizes the amount of total allegations filed against each precinct. If you missed [Part 1](http://hankthemason.github.io/d3_maps_pt1), I recommend reading that first.
+In Part 2 of this tutorial, we are going to turn our basic map into a heat map that visualizes the amount of total allegations filed against each precinct. If you missed [Part 1](http://hankthemason.github.io/blog/d3_maps_pt1), I recommend reading that first.
 
 Now that we have a basic working map, let’s use it to show some data! The data we are going to be using comes from [ProPublica’s](https://projects.propublica.org/nypd-ccrb/) release of over 33,300 records of misconduct against the NYPD, dating back to 1985. The actual data parsing is outside the scope of this article — instead, we’ll be using a .json file that I made from the data and can be downloaded in this project’s [GitHub repo](https://github.com/hankthemason/nyc-precinct-map-tutorial-pt2/tree/main/src/data).
 
