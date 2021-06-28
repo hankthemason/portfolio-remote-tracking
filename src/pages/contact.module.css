@@ -1,0 +1,101 @@
+.form-box {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  width: 50%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.child input, textarea {
+  padding: 5px 10px;
+  line-height:100%;
+  border: 1px solid grey;
+  align-self: center;
+} 
+
+.form-box label {
+  font-weight: 400;
+}
+
+.child {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.child label {
+  padding-left: 18.5%;
+}
+
+.child input, textarea {
+  margin-top: .8rem;
+  width: 60%;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.19), 0 1px 1px rgba(0,0,0,0.23);
+}
+
+.form-box input:focus, .form-box textarea:focus {
+  outline: none !important
+}
+
+.form-box:last-child {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.submit {
+  margin-top: 1.5rem;
+  align-self: flex-start;
+  padding-left: 18.5%
+}
+
+.submit input {
+  font-size: 1.4rem;
+  padding: .3rem 1rem;
+  border: 1px solid grey;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.19), 0 1px 1px rgba(0,0,0,0.23);
+}
+
+.submit input:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  .form-box {
+    width: 100%
+  }
+
+  .form-box input, textarea {
+    width: 80%;
+  }
+
+  .child label {
+    padding-left: 8.5%;
+  }
+
+  .submit {
+    align-self: flex-start;
+    padding-left: 8.5%;
+  }
+
+  .submit input {
+    width: 100%;
+  }
+
+
+}
+
+@media only screen and (max-width: 400px) {
+  .form-box {
+    width: 90%
+  }
+
+  .form-box input, textarea {
+    width: 80%;
+  }
+
+  .submit input {
+    width: 100%;
+  }
+}

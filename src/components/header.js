@@ -30,6 +30,9 @@ const Header = () => {
             <li className={navLinkItem}>
               <Link to='/blog'>Blog</Link>
             </li>
+            <li className={navLinkItem}>
+              <Link to='/contact'>Contact</Link>
+            </li>
           </ul>
         </div>
       </div>
