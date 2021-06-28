@@ -6,6 +6,8 @@ import Post from '../components/post'
 
 const Blog = ({ data }) => {
 
+  console.log(data)
+
   return (
     <Layout>
       <div className={headline}>
