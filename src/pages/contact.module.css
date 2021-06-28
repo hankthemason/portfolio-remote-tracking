@@ -61,6 +61,11 @@
   cursor: pointer;
 }
 
+.email-link {
+  margin-top: 3rem;
+  margin-left: 35%;
+}
+
 @media only screen and (max-width: 800px) {
   .form-box {
     width: 100%
@@ -81,6 +86,10 @@
 
   .submit input {
     width: 100%;
+  }
+
+  .email-link {
+    margin-left: 9%;
   }
 
 
