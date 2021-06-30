@@ -15,8 +15,8 @@ const options = {
   legend: {
     display: false
   },
-  legendCallback = function() {
-    //your function here
+  legendCallback: () => {
+    // your legend callback function here
   }
 }
 ```
