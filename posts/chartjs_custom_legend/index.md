@@ -5,7 +5,7 @@ title: "Render a custom legend with Chart.js"
 description: "How to render a custom legend with Chart.js and React hooks"
 ---
 
-Hi. There’s not much information on how to use the Chart.js's **legendCallback** option to generate a custom legend, especially with React functional components/hooks. I had a lot of trouble figuring out how to do this and wanted to share what I learned.
+There’s not much information on how to use the Chart.js's **legendCallback** option to generate a custom legend, especially with React functional components/hooks. I had a lot of trouble figuring out how to do this and wanted to share what I learned.
 
 I needed to create a custom legend to address discrepancies in size between two side-by-side Doughnut charts with different amounts of data. The charts kept rendering with different sizes, and after some Google-ing I decided the best way to solve this would be to generate my own legends.
 
